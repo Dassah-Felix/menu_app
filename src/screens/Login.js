@@ -1,5 +1,5 @@
 import React,{useState, useEffect, useContext} from 'react'
-import { Link, Navigate, useNavigate, } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import {AuthContext} from "../context/auth.Context"
 
 function Login() {
@@ -29,7 +29,7 @@ function Login() {
     <div className='col-sm12 col-md-6 col-lg-4 col-xl-4 m-3 p-3 bg-info'>
     <div className='form-group m-2'>
     <label htmlFor='email'>email</label>
-          <input type="email" className='form-control'  placeholder='Enter email'
+          <input type="email" className='form-control'   placeholder='Enter email'
            value={email}
             onChange={(e) => setEmail(e.target.value)}
           />

@@ -60,7 +60,7 @@ const handleSubmit = (e) => {
         </div>
 
         <button type="submit" className="btn btn-primary m-2">
-          {loading ? "Loading..." : "Login"}
+          {loading ? "Loading..." : "Register"}
         </button>
         <div className="row">
           I already have an account
